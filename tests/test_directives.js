@@ -20,7 +20,10 @@ describe("Utils suite", function() {
   it("'getTerms'", function() {
 
     result = getTerms("http://0.0.0.0:9998/_search", "os");
+    result.sort();
+
     var wanted = ['Windows 8', 'Mac OS X', 'Ubuntu'];
+    wanted.sort();
 
     expect(result).toEqual(wanted);
     });
