@@ -24,9 +24,7 @@ preprocessors = {
 
 
 // list of files to exclude
-exclude = [
-
-];
+exclude = ['testacular.conf.js'];
 
 
 // test results reporter to use
